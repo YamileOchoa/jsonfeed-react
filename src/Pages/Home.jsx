@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getUsers } from "../Api/jsonService";
+import { getUsers } from "../api/jsonService";
 
 function Home() {
   const [users, setUsers] = useState([]);
