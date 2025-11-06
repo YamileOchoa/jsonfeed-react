@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getPosts } from "../Api/jsonService";
 
-const POSTS_PER_PAGE = 9;
+const POSTS_PER_PAGE = 6;
 
 function Entities() {
   const [posts, setPosts] = useState([]);
